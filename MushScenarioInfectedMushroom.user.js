@@ -23,12 +23,7 @@
 // @require http://code.jquery.com/jquery-latest.js
 var $ = unsafeWindow.jQuery;
 var Main = unsafeWindow.Main;
-    $(document).ready(function(){
- 		var link ="https://rawgit.com/InfectionMushrooms/InfectedMushroomsScenario/master/"+localStorage['ms_scenarioCode']+".css";
-        
-        $('<link/>', {rel: 'stylesheet', href: link}).appendTo('head');
-        
-    });
+
 
 var version = '1.2.12';
 
@@ -155,13 +150,18 @@ var sc;
 function m_joinScenario() {
     var newScenarioCode = prompt('MushScénario\n---------------\nVeuillez saisir le code du scénario à utiliser :');
     if(newScenarioCode==false||newScenarioCode==undefined) return false;
-    
+    var link ="https://rawgit.com/InfectionMushrooms/InfectedMushroomsScenario/master/"+newScenarioCode+".css";
+        
+        $('<link/>', {rel: 'stylesheet', href: link}).appendTo('head');
     m_loadScenario(newScenarioCode);
 }
 
 function m_loadScenario(scenarioCode) {
     var data = 'code='+scenarioCode;
 
+    var link ="https://rawgit.com/InfectionMushrooms/InfectedMushroomsScenario/master/"+scenarioCode+".css";
+        
+        $('<link/>', {rel: 'stylesheet', href: link}).appendTo('head');
     localStorage['ms_scenarioCode']=scenarioCode;
     setTimeout(function() { GM_xmlhttpRequest({
         method: 'GET',
@@ -263,6 +263,9 @@ function m_applyScenario() {
         }
     }
     
+    var link ="https://rawgit.com/InfectionMushrooms/InfectedMushroomsScenario/master/"+localStorage['ms_scenarioCode']+".css";
+        
+        $('<link/>', {rel: 'stylesheet', href: link}).appendTo('head');
     sc = $.parseJSON(localStorage['ms_scenarioData']);
     if(!sc) {
         console.log(sc);
