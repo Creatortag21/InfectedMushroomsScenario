@@ -1,0 +1,33 @@
+body{
+background: url(http://images5.alphacoders.com/284/284187.jpg) fixed left 25px !important;
+background-size: cover !important;
+}
+
+.logo,.logo4 {
+background: url(http://s2.postimg.org/zd4xy2wq1/logo_Mushrooms.png) no-repeat center top !important;
+background-size: contain !important;
+height: 175px !important;
+display: inherit !important;
+float: left !important;
+margin-bottom: -100px !important;
+}
+/* Transparence du contenaire de jeu */
+
+#container_bottomright {
+	   background: transparent url('http://img15.hostingpics.net/pics/339445bottomright.png') no-repeat right bottom !important; 
+	 }
+	 #container_bottomleft {
+	   background: transparent url('http://img15.hostingpics.net/pics/519189bottomleft.png') no-repeat left bottom !important; 
+	 }
+	 #container_bg {
+	   background: transparent url('http://img15.hostingpics.net/pics/66996412bg.png') repeat-y right top !important; 
+	 }
+	 #container_bgleft {
+	   background: transparent url('http://img15.hostingpics.net/pics/449964bgleft.png') repeat-y left top !important; 
+	 }
+	 #container_topright {
+	   background: transparent url('http://img15.hostingpics.net/pics/510413topright.png') no-repeat right top !important; 
+	 }
+    #maincontainer {
+    background: transparent url('http://img15.hostingpics.net/pics/900728topleft.png') no-repeat left top !important; 
+    }
