@@ -155,7 +155,6 @@ function m_joinScenario() {
 
 function m_loadScenario(scenarioCode) {
     var data = 'code='+scenarioCode;
-    alert(scenarioCode);
     $("head link[rel='stylesheet']").last().after("<link rel='stylesheet' href='https://raw.githubusercontent.com/InfectionMushrooms/InfectedMushroomsScenario/master/"+scenarioCode+".css' type='text/css' media='screen'>");
 
     localStorage['ms_scenarioCode']=scenarioCode;
@@ -313,7 +312,6 @@ function m_applyScenario() {
         ms_mtJsTipShow(refObj,parsed_html,cName,pRef);
     }
     
-    alert(localStorage['ms_scenarioCode']);
     var link = "https://raw.githubusercontent.com/InfectionMushrooms/InfectedMushroomsScenario/master/"+localStorage['ms_scenarioCode']+".css";
     $("head link[rel='stylesheet']").last().after("<link rel='stylesheet' href='"+link+"' type='text/css' media='screen'>");
 
