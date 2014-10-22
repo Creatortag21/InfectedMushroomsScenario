@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name       MushScenarioInfectedMushroom
-// @version    1.2.12
+// @version    1.2.13
 // @author     Ma c'hi (mush@machi.tel)
 // @description  Modifications de Mush.vg pour parties scénarisées
 // @grant      GM_xmlhttpRequest
