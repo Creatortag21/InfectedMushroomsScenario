@@ -14,8 +14,8 @@ margin-bottom: -100px !important;
 /* Transparence du contenaire de jeu */
 
 #container_bottomright {
-	   background: transparent url('http://img15.hostingpics.net/pics/339445bottomright.png') no-repeat right bottom !important; 
-	 }
+	background: transparent url('http://img15.hostingpics.net/pics/339445bottomright.png') no-repeat right bottom !important; 
+}
 	 #container_bottomleft {
 	   background: transparent url('http://img15.hostingpics.net/pics/519189bottomleft.png') no-repeat left bottom !important; 
 	 }
@@ -32,16 +32,52 @@ margin-bottom: -100px !important;
     background: transparent url('http://img15.hostingpics.net/pics/900728topleft.png') no-repeat left top !important; 
     }
     
- /* Modif objet */
+/* Modif objet */
  
- /* Ration */
+/* Ration */
  
- #myInventory > li[data-name='Ration standard '] > Table > tbody>tr>td{
+#myInventory > li[data-name='Ration standard '] > Table > tbody>tr>td{
  	background-image: url('http://s10.postimg.org/rgjgc6bd5/morue.png') !important;
  	background-size: contain !important;
  }
 
 #room li[data-name='Ration standard '] > Table > tbody>tr>td{
  	background-image: url('http://s10.postimg.org/rgjgc6bd5/morue.png') !important;
+ 	background-size: contain !important;
+ }
+
+ /* Combinaison */
+ 
+#myInventory > li[data-name='Combinaison '] > Table > tbody>tr>td{
+ 	background-image: url('http://www.icone-png.com/png/28/28462.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Combinaison '] > Table > tbody>tr>td{
+ 	background-image: url('http://www.icone-png.com/png/28/28462.png') !important;
+ 	background-size: contain !important;
+ }
+ 
+ /* iTrakie®© */
+ 
+#myInventory > li[data-name='iTrakie®© '] > Table > tbody>tr>td{
+ 	background-image: url('http://s29.postimg.org/igjmrksyv/map.png') !important;
+ 	background-size: cover !important;
+ }
+
+#room li[data-name='iTrakie®© '] > Table > tbody>tr>td{
+ 	background-image: url('http://s29.postimg.org/igjmrksyv/map.png') !important;
+ 	background-size: cover !important;
+ }
+ 
+ /* Talkie-walkie */
+ 
+ #myInventory > li[data-name='Talkie-walkie '] > Table > tbody>tr>td{
+ 	background-image: url('http://s16.postimg.org/c9308gi1x/Talkie.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Talkie-walkie '] > Table > tbody>tr>td{
+ 	background-image: url('http://s16.postimg.org/c9308gi1x/Talkie.png') !important;
  	background-size: contain !important;
  }
