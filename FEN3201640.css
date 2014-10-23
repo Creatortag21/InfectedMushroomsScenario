@@ -81,3 +81,15 @@ margin-bottom: -100px !important;
  	background-image: url('http://s16.postimg.org/c9308gi1x/Talkie.png') !important;
  	background-size: contain !important;
  }
+ 
+ /* Savon */
+ 
+  #myInventory  li[data-name='Savon '] > Table > tbody>tr>td{
+ 	background-image: url('http://s21.postimg.org/7jnjg0r7r/gratoire.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Savon '] > Table > tbody>tr>td{
+ 	background-image: url('http://s21.postimg.org/7jnjg0r7r/gratoire.png') !important;
+ 	background-size: contain !important;
+ }
