@@ -72,12 +72,12 @@ margin-bottom: -100px !important;
  
  /* Talkie-walkie */
  
- #myInventory  li[data-name='Talkie-Walkie  '] > Table > tbody>tr>td{
+ #myInventory  li[data-name='Talkie-Walkie '] > Table > tbody>tr>td{
  	background-image: url('http://s16.postimg.org/c9308gi1x/Talkie.png') !important;
  	background-size: contain !important;
  }
 
-#room li[data-name='Talkie-Walkie  '] > Table > tbody>tr>td{
+#room li[data-name='Talkie-Walkie '] > Table > tbody>tr>td{
  	background-image: url('http://s16.postimg.org/c9308gi1x/Talkie.png') !important;
  	background-size: contain !important;
  }
