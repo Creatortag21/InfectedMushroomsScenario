@@ -41,7 +41,7 @@ margin-bottom: -100px !important;
  	background-size: contain !important;
  }
 
-#room > li[data-name='Ration standard '] > Table > tbody>tr>td{
+#room li[data-name='Ration standard '] > Table > tbody>tr>td{
  	background-image: url('http://s10.postimg.org/rgjgc6bd5/morue.png') !important;
  	background-size: contain !important;
  }
