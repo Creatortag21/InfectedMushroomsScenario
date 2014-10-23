@@ -37,7 +37,6 @@ margin-bottom: -100px !important;
  /* Ration */
  
  #myInventory > li[data-name='Ration standard '] > Table > tbody>tr>td{
- 	background-image: url('https://7fe3c138-a-62cb3a1a-s-sites.googlegroups.com/site/idddfsvt/home/test/morue.png');
+ 	background-image: url('http://www.partageduprofit.com/wp-content/uploads/2014/10/morue.png');
  	background-size:cover;
- }
  }
