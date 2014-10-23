@@ -46,14 +46,14 @@ margin-bottom: -100px !important;
  	background-size: contain !important;
  }
 
- /* Combinaison */
+ /* Casque de Visée */
  
-#myInventory  li[data-name='Combinaison '] > Table > tbody>tr>td{
+#myInventory  li[data-name='Casque de Visée '] > Table > tbody>tr>td{
  	background-image: url('http://www.icone-png.com/png/28/28462.png') !important;
  	background-size: contain !important;
  }
 
-#room li[data-name='Combinaison '] > Table > tbody>tr>td{
+#room li[data-name='Casque de Visée '] > Table > tbody>tr>td{
  	background-image: url('http://www.icone-png.com/png/28/28462.png') !important;
  	background-size: contain !important;
  }
@@ -93,3 +93,162 @@ margin-bottom: -100px !important;
  	background-image: url('http://s21.postimg.org/7jnjg0r7r/gratoire.png') !important;
  	background-size: contain !important;
  }
+ /* Combinaison */
+ 
+ 
+   #myInventory  li[data-name='Combinaison '] > Table > tbody>tr>td{
+ 	background-image: url('http://s29.postimg.org/dgfds3a93/Combinaison.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Combinaison '] > Table > tbody>tr>td{
+ 	background-image: url('http://s29.postimg.org/dgfds3a93/Combinaison.png') !important;
+ 	background-size: contain !important;
+ }
+ 
+ /* Vaguoscope */
+
+   #myInventory  li[data-name='Vaguoscope '] > Table > tbody>tr>td{
+ 	background-image: url('http://s28.postimg.org/aqbakbk8t/pondule.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Vaguoscope '] > Table > tbody>tr>td{
+ 	background-image: url('http://s28.postimg.org/aqbakbk8t/pondule.png') !important;
+ 	background-size: contain !important;
+ }
+ 
+ /* Décapsuleur Alien */
+ 
+   #myInventory  li[data-name='Décapsuleur Alien '] > Table > tbody>tr>td{
+ 	background-image: url('http://static.muscatmireval.com/assets/img/degustation_tirebouchon.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Décapsuleur Alien '] > Table > tbody>tr>td{
+ 	background-image: url('http://static.muscatmireval.com/assets/img/degustation_tirebouchon.png') !important;
+ 	background-size: contain !important;
+ }
+
+/* Lentille NCC */ 
+
+#myInventory  li[data-name='Lentille NCC '] > Table > tbody>tr>td{
+ 	background-image: url('http://s16.postimg.org/hrkeygrxh/longue_Vue.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Lentille NCC '] > Table > tbody>tr>td{
+ 	background-image: url('http://s16.postimg.org/hrkeygrxh/longue_Vue.png') !important;
+ 	background-size: contain !important;
+ }
+ 
+ /* Super Savon */
+ 
+#myInventory  li[data-name='Super Savon '] > Table > tbody>tr>td{
+ 	background-image: url('http://s30.postimg.org/8049byi8t/supersavon.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Super Savon '] > Table > tbody>tr>td{
+ 	background-image: url('http://s30.postimg.org/8049byi8t/supersavon.png') !important;
+ 	background-size: contain !important;
+ }
+ 
+ /* Traqueur */
+ 
+#myInventory  li[data-name='Traqueur '] > Table > tbody>tr>td{
+ 	background-image: url('http://s28.postimg.org/96r3d4z0d/Tracker.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Traqueur '] > Table > tbody>tr>td{
+ 	background-image: url('http://s28.postimg.org/96r3d4z0d/Tracker.png') !important;
+ 	background-size: contain !important;
+ } 
+ 
+ /* Boussole quadrimetric */
+ 
+#myInventory  li[data-name='Boussole quadrimetric '] > Table > tbody>tr>td{
+ 	background-image: url('http://s28.postimg.org/53d3hclz1/Boussole.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Boussole quadrimetric '] > Table > tbody>tr>td{
+ 	background-image: url('http://s28.postimg.org/53d3hclz1/Boussole.png') !important;
+ 	background-size: contain !important;
+ }  
+ 
+ 
+ /* Clé à molette */
+ 
+ #myInventory  li[data-name='Clé à molette '] > Table > tbody>tr>td{
+ 	background-image: url('http://s23.postimg.org/jdcwuyj6z/Cl_molette.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Clé à molette '] > Table > tbody>tr>td{
+ 	background-image: url('http://s23.postimg.org/jdcwuyj6z/Cl_molette.png') !important;
+ 	background-size: contain !important;
+ } 
+ 
+ /* Gants de protection */
+ 
+ #myInventory  li[data-name='Gants de protection '] > Table > tbody>tr>td{
+ 	background-image: url('http://s2.postimg.org/8ep5ohn09/Gant.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Gants de protection '] > Table > tbody>tr>td{
+ 	background-image: url('http://s2.postimg.org/8ep5ohn09/Gant.png') !important;
+ 	background-size: contain !important;
+ }  
+ 
+ /* Monture Rocheuse */
+ 
+  #myInventory  li[data-name='Monture Rocheuse '] > Table > tbody>tr>td{
+ 	background-image: url('http://petz-passionanimaux.fr/images_animaux/animaux_ferme/chevre.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Monture Rocheuse '] > Table > tbody>tr>td{
+ 	background-image: url('http://petz-passionanimaux.fr/images_animaux/animaux_ferme/chevre.png') !important;
+ 	background-size: contain !important;
+ }  
+ 
+ /* Tablier intachable */
+ 
+   #myInventory  li[data-name='Tablier intachable '] > Table > tbody>tr>td{
+ 	background-image: url('http://s30.postimg.org/4g5yql2ox/tablier.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Tablier intachable '] > Table > tbody>tr>td{
+ 	background-image: url('http://s30.postimg.org/4g5yql2ox/tablier.png') !important;
+ 	background-size: contain !important;
+ } 
+ 
+ /* Trottinette Anti-Grav. */
+ 
+    #myInventory  li[data-name='Trottinette Anti-Grav. '] > Table > tbody>tr>td{
+ 	background-image: url('http://s8.postimg.org/dvsje96v9/trotinette.png') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Trottinette Anti-Grav. '] > Table > tbody>tr>td{
+ 	background-image: url('http://s8.postimg.org/dvsje96v9/trotinette.png') !important;
+ 	background-size: contain !important;
+ } 
+ 
+ /* Corde */
+ 
+     #myInventory  li[data-name='Corde '] > Table > tbody>tr>td{
+ 	background-image: url('http://www.pirates-corsaires.com/img/corde.gif') !important;
+ 	background-size: contain !important;
+ }
+
+#room li[data-name='Corde '] > Table > tbody>tr>td{
+ 	background-image: url('http://www.pirates-corsaires.com/img/corde.gif') !important;
+ 	background-size: contain !important;
+ } 
+ 
+ 
