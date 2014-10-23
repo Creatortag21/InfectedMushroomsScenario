@@ -31,3 +31,13 @@ margin-bottom: -100px !important;
     #maincontainer {
     background: transparent url('http://img15.hostingpics.net/pics/900728topleft.png') no-repeat left top !important; 
     }
+    
+ /* Modif objet */
+ 
+ /* Ration */
+ 
+ #myInventory > li[data-name='Ration standard '] > Table > tbody>tr>td{
+ 	background-image: url('https://7fe3c138-a-62cb3a1a-s-sites.googlegroups.com/site/idddfsvt/home/test/morue.png');
+ 	background-size:cover;
+ }
+ }
